@@ -1,1 +1,1 @@
-Assalomu Alaykum pythonda Telegram bot dasturlash sahifamizga xush kelibsiz! Siz bu yerdan Telegram bot daturi koʻdlarini oson yuklab olishingiz mumkin!
+Assalomu Alaykum pythonda Telegram bot dasturlash sahifamizga xush kelibsiz! Siz bu yerdan Telegram bot dasturi koʻdlarini oson yuklab olishingiz mumkin!
