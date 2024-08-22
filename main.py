@@ -1,7 +1,7 @@
 from telebot import TeleBot, types
 
 
-bot = TeleBot('Token')
+bot = TeleBot('SIZNING_TELEGRAM_BOTINGIZ_Tokeni')
 def markup1():
     markup1 = types.ReplyKeyboardMarkup(resize_keyboard=True)
     b1 = types.KeyboardButton("👋 Salom")
