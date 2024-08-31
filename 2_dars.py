@@ -418,13 +418,4 @@ def call(call):
                 bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYJWas9g1D_h9tAklZiTNDynzC6odZAAJhLQACSe85SQXVUF7XedsoNQQ")
             elif call.data =="26_dars":
                 bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYJ2as9lH_85A57KS35W-VkO1kP5tUAAJYLwACVWPYSomgrRqesfSENQQ")
-                bot.edit_messafe_text(chat_id=call.message.message_id, text=f"Natija:\n\n{funcs.getRes(call.from_user.id)}", reply_markup=Calcbtn.calcb())
-                    funcs.davomi(call.from_user.id, funcs.getRes(call.from_user.id))
-                except:
-                    bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"Xtolik yuz berdi!", reply_markup=Calcbtn.calcb())
-                    funcs.toza(call.from_user.id)
-        else:
-            bot.delete_message(call.message.chat.id, call.message.message_id)
-            bot.answer_callback_query(callback_query_id=call.id, text="Barcha kanallarga obuna boʻlishingiz shart! ✅", show_alert=True)
-            bot.send_message(call.message.chat.id, "Kanallarga obuna boʻling!", reply_markup=obuna())
-    elif call.from_user.language_code == "ru":
+                
