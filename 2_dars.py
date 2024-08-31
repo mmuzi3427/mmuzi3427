@@ -365,4 +365,26 @@ def call(call):
                 wiki(" ")
             elif call.data ==".":
                 funcs.addwiki(call.from_user.id, ". ")
-                bot.edit_messa...
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"8). Hisoblang:  ( 975 : 5 ) * 2 = ?\nA) 390\nB) 400\nC) 420", reply_markup=test8())
+            elif call.data == "B7":
+                delta("7). B)❌  C)☑️\n")
+                bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"8). Hisoblang:  ( 975 : 5 ) * 2 = ?\nA) 390\nB) 400\nC) 420", reply_markup=test8())
+            elif call.data == "C7":
+                delta("7). C)✅\n")
+                n()
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"8). Hisoblang:  ( 975 : 5 ) * 2 = ?\nA) 390\nB) 400\nC) 420", reply_markup=test8())
+                bot.answer_callback_query(callback_query_id=call.id, text="✅", show_alert=True)
+            elif call.data == "A8":
+                delta("8). A)✅\n")
+                n()
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"9). Hisoblang:  (6754-1456): 3= ?\nA) 1766\nB) 1966 \nC) 2266", reply_markup=test9())
+                bot.answer_callback_query(callback_query_id=call.id, text="✅", show_alert=True)
+            elif call.data == "B8":
+                delta("8). B)❌  A)☑️\n")
+                bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"9). Hisoblang:  (6754-1456): 3= ?\nA) 1766\nB) 1966 \nC) 2266", reply_markup=test9())
+            elif call.data == "C8":
+                delta("8). C)❌  A)☑️\n")
+                bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
+                bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"9). Hisoblang:  (6754-1456): 3= ?\nA) 1766\nB) 1966 \nC) 2266", reply_markup=test9())
