@@ -1,5 +1,5 @@
 from telebot import TeleBot, types
-token = 'YOUR_TKEN'
+token = 'YOUR_TOKEN'
 admin_id = 'admin_id'
 bot = TeleBot(token)
 
