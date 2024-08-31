@@ -1,8 +1,3 @@
-Toggle navigation
-
-Shared file: mmuzi's main.py
-The code below has been shared by mmuzi. Want to see it run? Or fix some of mmuzi's bugs? Or introduce some of your own? Use the button above to copy it to your own account.
-
 from telebot import TeleBot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 import random
@@ -370,4 +365,4 @@ def call(call):
                 wiki(" ")
             elif call.data ==".":
                 funcs.addwiki(call.from_user.id, ". ")
-                bot.edit_messa
+                bot.edit_messa...
