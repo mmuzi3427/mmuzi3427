@@ -388,3 +388,33 @@ def call(call):
                 delta("8). C)❌  A)☑️\n")
                 bot.answer_callback_query(callback_query_id=call.id, text="🚫", show_alert=True)
                 bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=f"9). Hisoblang:  (6754-1456): 3= ?\nA) 1766\nB) 1966 \nC) 2266", reply_markup=test9())
+            elif call.data =="12_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIX5GasxX7rCd90x1dT6yDYkb02SsEEAALqQwAC7zD5SSF8KfTjDbCBNQQ")
+            elif call.data =="13_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYDWas2sFEXBdK2eS0JgQuAAFu1W3MkwACAT8AAqeiAUrUo5_Y_77W2jUE")
+            elif call.data =="14_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYD2as2wABi-Lhr57jl7zYro1-z0vt1gACXT4AAlqzgUrM9ZTnYRKZGDUE")
+            elif call.data =="15_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYEWas28HqPesJkDf9YgEvj481DAQkAAJ_KAACzzTgSF_2bwG1XIdzNQQ")
+            elif call.data =="16_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYE2as3AIvz7Mpodp8lE15kdv9Q2Z2AAKCKAACzzTgSMoAAaFYuZPJbDUE")
+            elif call.data =="17_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYFWas3EYxv-FvddjBCuvZhUhipzkzAAKEKAACzzTgSENYUl2dAZHuNQQ")
+            elif call.data =="18_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYF2as3JWj5fjALHA-1DIPS8cST1RBAAL3LgACAX5pSMsIUED8MNoGNQQ")
+            elif call.data =="19_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYGWas3Nwakv7501m3h1n00fO9ujQVAAIzKQACGezxSOWGp-hnQbsDNQQ")
+            elif call.data =="20_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYG2as3TgzGjeXAebHjf-QeCzh5yfOAAKRIQACG4SgSCWgsD7zB_DANQQ")
+            elif call.data =="21_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYHWas3XXihzsbeKF9jLFBy9tn14gLAAKAKAACTV64SO43ja550utGNQQ")
+            elif call.data =="22_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYH2as3eTEw2bhsiZTt9l88LBXcg9WAAK8LgACZ7DRSPfIZkvT7xMhNQQ")
+            elif call.data =="23_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYIWas3fMmrgygUazD1eJ37bHESQ79AAI3KQACGezxSAV518pEk4EtNQQ")
+            elif call.data =="24_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYI2as7r3qC2nnXhaS_fHYZzmtgWm1AAL9QAACfojoScZtC_lzj-qiNQQ")
+            elif call.data =="25_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYJWas9g1D_h9tAklZiTNDynzC6odZAAJhLQACSe85SQXVUF7XedsoNQQ")
+            elif call.data =="26_dars":
+                bot.send_video(call.message.chat.id, "BAACAgIAAxkBAAIYJ2as9lH_85A57KS35W-VkO1kP5tUAAJYLwACVWPYSomgrRqesfSENQQ")
